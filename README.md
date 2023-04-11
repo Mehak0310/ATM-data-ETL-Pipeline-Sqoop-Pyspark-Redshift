@@ -17,12 +17,6 @@ This includes the following tasks-
 5.Loading the data from Amazon S3 to Redshift tables.
 6. Performing the analysis queries.
 
-Following KPIs are calculated on a tumbling window of one minute on orders across the globe on a per-country-basis and time-country-basis.
-1. Total volume of sales
-2. OPM (orders per minute)
-3. Rate of return
-4. Average transaction size
-
 Coming to the analysis part, you will be tasked to carry out the calculations to perform the following analytical queries:
 1. Top 10 ATMs where most transactions are in the ’inactive’ state
 2. Number of ATM failures corresponding to the different weather conditions recorded at the time of the transactions
@@ -33,5 +27,4 @@ Coming to the analysis part, you will be tasked to carry out the calculations to
 7. Top 10 records with the number of transactions ordered by the ATM_number, ATM_manufacturer, location, weekend_flag and then total_transaction_count, on weekdays and on weekends throughout the year
 8. Most active day in each ATMs from location "Vejgaard"
 
-![image](https://github.com/Mehak0310/Blob/blob/main/retailImage.png)
 
