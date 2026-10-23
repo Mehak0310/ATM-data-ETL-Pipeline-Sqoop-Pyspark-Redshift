@@ -1,5 +1,20 @@
 # ATM-data-ETL-Pipeline-Sqoop-Pyspark-Redshift
 
+## Portfolio summary — academic data engineering
+
+An educational data-mart case study exploring ATM cash-withdrawal patterns using Sqoop, PySpark, Amazon S3 and Redshift. It is not presented as a production banking deployment.
+
+```mermaid
+flowchart LR
+ A[MySQL RDS] --> B[Sqoop]
+ B --> C[PySpark]
+ C --> D[S3]
+ D --> E[Redshift]
+ E --> F[SQL insights]
+```
+
+---
+
 # Purpose: 
 Banks have to refill the ATMs when the money goes below a specific threshold limit. This depends on the activity and the area where a particular ATM is located as well as the weather, day of the week, etc. In our project, Spar Nord Bank is trying to observe the withdrawal behavior and the corresponding dependent factors to optimally manage the refill frequency. Apart from this, other insights also have to be drawn from the data. We have data from more than 100 ATMs across Denmark. Data is captured for every transaction including, card type, location, date, time, ATM type, etc.
 
